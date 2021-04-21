@@ -113,36 +113,34 @@ console.log(["Leite", "Ovos", 2, 3]);
 
 Conforme o ECMAScript standard temos 9 tipos de dados:
 
-* Data types
-  * Primitive / Primitive value
-  * Structural
-  * Structural Primitive
+- Data types
+  - Primitive / Primitive value
+  - Structural
+  - Structural Primitive
 
 <br>
 
 ## Primitivos
 
-* String
-* Number
-* Boolean
-* undefined
-* Symbol
-* BigInt
+- String
+- Number
+- Boolean
+- undefined
+- Symbol
+- BigInt
 
 ## Estruturais
 
-* Object
-  * Array
-  * Map
-  * Set
-  * Date
-  * ...
-* Function
-
+- Object
+  - Array
+  - Map
+  - Set
+  - Date
+  - ...
+- Function
 
 ## Primitivo Estrutural / Structural Root Primitive
 
-* null
-
+- null
 
 ### Dica: JavaScript é bastante orientado a Objetos.
