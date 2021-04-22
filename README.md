@@ -1,8 +1,21 @@
-<h1 align="center"> studyingJS </h1>
+<h1 align="center">
+<img src="./.github/js.png">
+</h1>
+
+
+ <p align="center">
+  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=8257E5&labelColor=000000">
+<p>
  
- 
- <img src="https://sujeitoprogramador.com/wp-content/uploads/2019/08/jsjsjs.png" width="500px" height="300px">
-   
+ <p align="center">
+ <img src="https://sujeitoprogramador.com/wp-content/uploads/2019/08/jsjsjs.png" width="100%">
+</p>
+
+# 
+
+<p>
+Guia para aprender Javascript baseados no curso da Rocketseat, o Discover ministrado pelo Mayk Brito. Todos os direitos reservados ao instrutor.
+</p>
 
 #
 
