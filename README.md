@@ -1,6 +1,8 @@
 # studyingJS
 
-1. [Tipos de Dados](https://github.com/ramonxm/studyingJS/blob/master/TiposDeDados.md) - (**JavaScript**)
-2. [Variáveis](https://github.com/ramonxm/studyingJS/blob/master/variaveis.md) - (**JavaScript**)
-3. [Functions](https://github.com/ramonxm/studyingJS/blob/master/functions.md) - (**JavaScript**)
-4. [Manipulando Dados](https://github.com/ramonxm/studyingJS/blob/master/ManipulandoDados.md) - (**JavaScript**)
+1. [Introdução](https://github.com/ramonxm/studyingJS/)
+
+2. [Tipos de Dados](https://github.com/ramonxm/studyingJS/blob/master/Tipos%20de%20Dados%20e%20Vari%C3%A1veis/TiposDeDados.md) 
+   1. [Variáveis](https://github.com/ramonxm/studyingJS/blob/master/Tipos%20de%20Dados%20e%20Vari%C3%A1veis/variaveis.md)
+   2.  [Functions](https://github.com/ramonxm/studyingJS/blob/master/Fun%C3%A7%C3%B5es/functions.md)
+   3.  [Manipulando Dados](https://github.com/ramonxm/studyingJS/blob/master/Tipos%20de%20Dados%20e%20Vari%C3%A1veis/ManipulandoDados.md)
