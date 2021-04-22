@@ -8,7 +8,6 @@
 <br>
 
 ```js
-
 // Declaration - declaração da função
 // Function statement
 function createPhrases() {
@@ -17,133 +16,126 @@ function createPhrases() {
   console.log("Revisão é a mãe do aprendizado");
 }
 
-// Executar a função 
+// Executar a função
 // Execute, run, call, invoke
-createPhrases()
+createPhrases();
 
 // Posso invocar ela inúmeras vezes.
-createPhrases()
-createPhrases()
+createPhrases();
+createPhrases();
 
 // Informar o fim da função
-console.log('Fim do Programa')
-
+console.log("Fim do Programa");
 ```
-
 
 <br>
 
 # Argumentos e Parâmetros
-* Passar argumentos para parâmetros de uma função.
+
+- Passar argumentos para parâmetros de uma função.
 
 <br>
 
 ```js
-
 // function expression or function anonymous
 // Parâmetros (parameters)
-const sum = function(number1, number2) {
-    console.log(number1 + number2) 
-}
+const sum = function (number1, number2) {
+  console.log(number1 + number2);
+};
 
 // Passar argumentos na função
-sum(2,3) // arguments - argumentos
-
+sum(2, 3); // arguments - argumentos
 ```
+
 <br>
 
 ## Retornando valores dentro de uma função.
+
 <br>
 
 ```js
 // Retornando valores com return.
-const sum = function(number1, number2){
-    let total = number1 + number2
-    return total
-}
+const sum = function (number1, number2) {
+  let total = number1 + number2;
+  return total;
+};
 
-let number1 = 34
-let number2 = 25
-sum(number1, number2)
+let number1 = 34;
+let number2 = 25;
+sum(number1, number2);
 
-
-console.log(`O número 1 é ${number1}`)
-console.log(`O número 2 é ${number2}`)
-console.log(`A soma é ${sum(number1, number2)}`)
-console.log(total)
+console.log(`O número 1 é ${number1}`);
+console.log(`O número 2 é ${number2}`);
+console.log(`A soma é ${sum(number1, number2)}`);
+console.log(total);
 ```
 
 <br>
 
 ## Maneiras de entender funções.
+
 <br>
 
-
-* Função é um liquidificador
+- Função é um liquidificador
 
 ```js
-
 // Imagina que uma função é uma caixa mágica onde eu mando pra elas coisas e ela vai me retornar um novo valor.
 function fazerSuco(fruta1, fruta2) {
-
-    return 'Suco de: ' + fruta1 + fruta2
+  return "Suco de: " + fruta1 + fruta2;
 }
 
-const copo = fazerSuco('banana', 'maçã')
-console.log(copo)
-
+const copo = fazerSuco("banana", "maçã");
+console.log(copo);
 ```
-
 
 <br>
 
 ## Function Scope
+
 <br>
 
 ```js
-let subject = 'create video'
+let subject = "create video";
 
 function createThink(subject) {
-    subject = 'study'
-    return subject
+  subject = "study";
+  return subject;
 }
 
-
-console.log(subject) // create video
-console.log(createThink(subject)) // study
-
+console.log(subject); // create video
+console.log(createThink(subject)); // study
 ```
-
 
 <br>
 
 ## Function Hoisting
+
 <br>
 
-* Uma função criada dessa forma sofre hoisting.
+- Uma função criada dessa forma sofre hoisting.
+
 ```js
+sayMyName();
 
-sayMyName()
-
-function sayMyName(){
-    console.log('Ramon')
+function sayMyName() {
+  console.log("Ramon");
 }
-
 ```
-* Uma função criada dessa forma não sofre hoisting
+
+- Uma função criada dessa forma não sofre hoisting
+
 ```js
+sayMyName();
 
-sayMyName()
-
-const sayMyName = function(){
-    console.log('Ramon')
-}
-
+const sayMyName = function () {
+  console.log("Ramon");
+};
 ```
 
 <br>
 
 ## Arrow function
+
 <br>
 
 ```js
@@ -159,42 +151,57 @@ sayMyName('Ramon')
 <br>
 
 ## Callback function
+
 <br>
 
 ```js
+function sayMyName(name) {
+  console.log("Antes de executar a função callback");
+  name();
 
-function sayMyName(name){
-    console.log('Antes de executar a função callback')
-    name()
-
-    console.log('Depois de executar a callback')
+  console.log("Depois de executar a callback");
 }
 
-sayMyName(
-    () => {
-        console.log('Estou em uma callback')
-    }
-)
-
+sayMyName(() => {
+  console.log("Estou em uma callback");
+});
 ```
-
-
 
 <br>
 
 ## Funções construtoras
-* Expressão new
-* criar um novo objeto
-* this keyword
-<br>
 
+- Expressão new
+- criar um novo objeto
+- this keyword
+  <br>
 
 ```js
-function Person(){
-    thisname = name
+function Person() {
+  this.name = name;
+  this.walk = function () {
+    return this.name + " está andando";
+  };
 }
-const ramon = new Person()
-console.log(ramon)
+
+// criando nova pessoa
+const ramon = new Person("Ramon");
+const joao = new Person("João");
+
+// retornando a pessoa e a função que foi aplicada a ela.
+console.log(ramon.walk());
+console.log(joao.walk());
 ```
 
+- outras funções construtoras que existem no JS.
 
+```js
+let name = new Date("2020-12-01");
+console.log(date);
+
+//others
+let word = new String();
+let num = new Number();
+```
+
+### Fim da seção.
