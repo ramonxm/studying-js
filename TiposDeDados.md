@@ -2,9 +2,11 @@
 
 ## Cadeia de Carecteres
 
-"" = Aspas duplas <br>
-'' = Aspas simples <br>
-`` = template literals ou template strings
+- "" = Aspas duplas
+- '' = Aspas simples
+- `` = template literals ou template strings
+
+<br>
 
 ```js
 console.log("Ramon");
@@ -12,15 +14,19 @@ console.log("Ramon");
 
 # O que usar?
 
-Quando utilizar ' ' (aspas simples) dentro dos textos, prefira-se utilizar " " (aspas duplas).
+- Quando utilizar ' ' (aspas simples) dentro dos textos, prefira-se utilizar " " (aspas duplas).
+
+  <br>
 
 ```js
 console.log("Adoro aquela frase 'ser ou não ser, eis a quesão'");
 ```
 
-Template literals é recomendado a utilização quando queira fazer uma concatenação.
+<br>
 
-Exemplo:
+- Template literals é recomendado a utilização quando queira fazer uma concatenação.
+
+- Exemplo:
 
 ```js
 const idade = 20;
@@ -31,12 +37,13 @@ console.log(`Ramon tem ${idade}`);
 
 # Number
 
-Números
+- Números
+  - 33 = inteiros
+  - 12.5 = reais (float)
+  - NaN = Not a Number
+  - Infinity = infinito
 
-33 = inteiros <br>
-12.5 = reais (float) <br>
-NaN = Not a Number <br>
-Infinity = infinito
+<br>
 
 ```js
 console.log(33); // Int
@@ -49,10 +56,11 @@ console.log(Infinity); // Infinity - ! i maiúsculo.
 
 # Boolean
 
-Somente 2 valores
+- Somente 2 valores
+  - true = verdadeiro
+  - false = falso
 
-true = verdadeiro <br>
-false = falso
+<br>
 
 ```js
 console.log(true); // retorna VERDADEIRO
@@ -63,16 +71,20 @@ console.log(false); // retorna FALSO
 
 # Undefined e Null
 
-undefined = indefinido <br>
-null: nulo | objeto que não possui nada dentro | diferente de indefinido.
+- undefined = indefinido
+- null: nulo
+- objeto que não possui nada dentro
+- diferente de indefinido.
 
 <br>
 
 # Object
 
-Objeto <br>
-Propriedades / atributos <br>
-Funcionalidades / Métodos
+- Objeto
+- Propriedades / atributos
+- Funcionalidades / Métodos
+
+<br>
 
 ```js
 // Padrão
@@ -94,9 +106,9 @@ console.log({
 
 # Array
 
-Array (vetores) <br>
-Uma lista <br>
-Agrupamento de dado
+- Array (vetores)
+- Uma lista
+- Agrupamento de dado
 
 Exemplo:
 
@@ -111,9 +123,9 @@ console.log(["Leite", "Ovos", 2, 3]);
 
 # Tipos de dados ES6
 
-Conforme o ECMAScript standard temos 9 tipos de dados:
+- Conforme o ECMAScript standard temos 9 tipos de dados:
 
-- Data types
+* Data types
   - Primitive / Primitive value
   - Structural
   - Structural Primitive
