@@ -15,4 +15,4 @@
    2.  [Funções](https://github.com/ramonxm/studyingJS/blob/master/Fun%C3%A7%C3%B5es/functions.md)
    3.  [Manipulando Dados](https://github.com/ramonxm/studyingJS/blob/master/Tipos%20de%20Dados%20e%20Vari%C3%A1veis/ManipulandoDados.md)
 
-
+3. [Expressões e Operadores]()
