@@ -147,62 +147,71 @@ console.log(
     },
   ].length
 );
-3
+3;
 ```
 
 <br>
 
-* Transformar uma cadeia de caracteres em elementos de um array
+- Transformar uma cadeia de caracteres em elementos de um array
 
 ```js
-
-let word = "manipulação"
-console.log(Array.from(word))
+let word = "manipulação";
+console.log(Array.from(word));
 // cada um dos caracteres virou um elemento de um array.
-
 ```
 
 <br>
 
-* Manipulando esse array:
+- Manipulando esse array:
+
 ```js
 let techs = {"html", "css", "js"}
 ```
-* Adicionar um item no fim
+
+- Adicionar um item no fim
 
 ```js
-techs.push("nodejs")
+techs.push("nodejs");
 ```
 
-* Adicionar no começo
+- Adicionar no começo
+
 ```js
-techs.unshift("sql")
-```
-* Remover do fim
-```js
-techs.pop()
+techs.unshift("sql");
 ```
 
-* Remover do começo
+- Remover do fim
+
 ```js
-techs.shift()
+techs.pop();
 ```
-* Pegar somente alguns elementos do array
+
+- Remover do começo
+
 ```js
-console.log(techs.slice(1,3))
+techs.shift();
 ```
-* Remover 1 ou mais items em qualquer posição do array
+
+- Pegar somente alguns elementos do array
+
 ```js
-techs.splice(1, 1)
+console.log(techs.slice(1, 3));
 ```
-* Encontrar a posição de um elemento no array
+
+- Remover 1 ou mais items em qualquer posição do array
+
 ```js
-let index = techs.indexOf('css')
-techs.splice(index, 1) // caso queira remover; 
+techs.splice(1, 1);
 ```
-  
-  ```js
+
+- Encontrar a posição de um elemento no array
+
+```js
+let index = techs.indexOf("css");
+techs.splice(index, 1); // caso queira remover;
+```
+
+```js
 // Para testar.
-console.log(techs)
-
+console.log(techs);
 ```
