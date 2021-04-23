@@ -16,7 +16,7 @@ Projeto para auxiliar devs iniciantes a aprender Javascript se baseando nas aula
 #
 
  <p align="center">
- <img src="https://sujeitoprogramador.com/wp-content/uploads/2019/08/jsjsjs.png" width="100%" height="400px">
+ <img src="https://ronanlopes.me/wp-content/uploads/2020/11/javascript.png" width="100%">
 </p>
 
 #
