@@ -140,3 +140,24 @@ console.log(total);
 ```
 
 <br>
+
+# Operadores de Comparação
+
+- Irá comparar valores e retonar um Boolean como resposta à comparação.
+
+```js
+let one = 1;
+let two = 2;
+```
+
+```
+- == igual
+- != diferente
+- === estritamente igual
+- !== estritamente diferente
+- Maior >
+- Maior ou igual >=
+- < Menor
+- <= Menor igual
+```
+
