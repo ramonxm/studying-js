@@ -22,3 +22,4 @@ if (notaA) {
 }
 
 console.log(notaFinal);
+

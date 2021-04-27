@@ -5,11 +5,11 @@ function transformDegree(degree) {
   if (!celsiusExists && !fahrenheiExists) {
     throw new Error("Grau não identificado");
   }
-
   let updatedDegree = Number(degree.toUpperCase().replace("F", ""));
   let formula = (fahrenheit) => ((fahrenheit - 32) * 5) / 9;
   let degreeSign = "C";
 
+  
   if (celsiusExists) {
     updatedDegree = Number(degree.toUpperCase().replace("C", ""));
     formula = (celsius) => (celsius * 9) / 5 + 32;
