@@ -48,7 +48,7 @@ Para acessar o conteúdo original, [clique aqui](https://app.rocketseat.com.br/d
    3. [Manipulando Dados](https://github.com/ramonxm/studyingJS/blob/master/Tipos%20de%20Dados%20e%20Vari%C3%A1veis/ManipulandoDados.md)
 
 3. [Expressões e Operadores](https://github.com/ramonxm/studyingJS/blob/master/Express%C3%B5es%20e%20Operadores/expressionsandoperations.md)
-4. **Comming soon**
+4. [Condicionais e controle de fluxo](https://github.com/ramonxm/studyingJS/blob/master/Condicionais%20e%20controle%20de%20fluxo/conditions.md)
 
 #
 
