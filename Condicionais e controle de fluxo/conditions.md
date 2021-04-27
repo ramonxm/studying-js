@@ -80,3 +80,53 @@ console.log("após ao try/catch");
 
 # Estruturas de repetição
 
+## -  While (enquanto)
+<br>
+
+```js
+let i = 0;
+while(i < 10){
+  console.log(i)
+
+  i++;
+}
+
+// Faz sentido usar o while quando a gente não sabe qual é o momento da parada.
+```
+
+<br>
+
+## - For..of
+
+<br>
+
+```js
+// Pega todas as posições
+let name = 'Ramon'
+let names = ['João', 'Paulo', 'Pedro']
+
+for(let char of name){
+  console.log(char)
+}
+```
+
+
+<br>
+
+## - For..in
+<br>
+
+```js
+
+let person = {
+  name: 'John',
+  age: 30,
+  weight: 88.6
+}
+
+for(let property in person){
+  console.log(property)
+  console.log(person[property])
+}
+
+```
