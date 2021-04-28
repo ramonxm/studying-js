@@ -4,18 +4,16 @@
 
 ## Notas escolares
 
-
-- Acesse aqui.
+- [Acesse aqui.](https://github.com/ramonxm/studyingJS/blob/master/Exerc%C3%ADcios/notas_escolares.js)
 
 ## Fluxo de caixa familiar
 
-- Acesse aqui.
-
+- [Acesse aqui.](https://github.com/ramonxm/studyingJS/blob/master/Exerc%C3%ADcios/celsiustofahrenheit.js)
 
 ## Celsius to Fahrenheit
 
-- Acesse aqui.
+- [Acesse aqui.](https://github.com/ramonxm/studyingJS/blob/master/Exerc%C3%ADcios/celsiustofahrenheit.js)
 
 ## Array
 
-- Acesse aqui.
+- [Acesse aqui.](https://github.com/ramonxm/studyingJS/blob/master/Exerc%C3%ADcios/array.js)
