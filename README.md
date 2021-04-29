@@ -50,6 +50,9 @@ Para acessar o conteúdo original, [clique aqui](https://app.rocketseat.com.br/d
 3. [Expressões e Operadores](https://github.com/ramonxm/studyingJS/blob/master/Express%C3%B5es%20e%20Operadores/expressionsandoperations.md)
 4. [Condicionais e controle de fluxo](https://github.com/ramonxm/studyingJS/blob/master/Condicionais%20e%20controle%20de%20fluxo/conditions.md)
 5. [Exercicios - Modulo 1](https://github.com/ramonxm/studyingJS/blob/master/Exerc%C3%ADcios/module_one.md)
+6. [Introdução - DOM](https://github.com/ramonxm/studyingJS/blob/master/DOM/introducao.md)
+
+    1. [DOM](https://github.com/ramonxm/studyingJS/blob/master/DOM/dom.md)
 
 #
 
